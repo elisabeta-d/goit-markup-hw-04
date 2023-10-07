@@ -297,25 +297,27 @@ li {
     letter-spacing: 3%;
     text-align: center;
 }
-.our-team-icons {
-    fill: #AFB1B8;
-    border-radius: 5px;
-    width: 20px;
-    height: 20px;
-    gap: 10px;
-}
-.our-team-icons:hover {
-    background-color: var(--hover-color);
-    fill: var(--white-color);
-    border-radius: 5px;
-}
+
 .ellipse {
     display: flex;
     justify-content: center;
     margin-top: 16px;
     margin-bottom: 30px;
-    border-radius: 50px;
     gap: 10px;
+}
+.our-team-icons {
+    fill: #AFB1B8;
+    width: 20px;
+    height: 20px;
+}
+.team-social-icon {
+    padding: 10px;
+    border-radius: 50px;
+}
+.team-social-icon:hover {
+    background-color: var(--hover-color);
+    fill: var(--white-color);
+    border-radius: 50px;
 }
 
 .regular-customer ul {
@@ -578,19 +580,20 @@ li {
 .footer-social-icon {
     fill: var(--white-color);
     display: flex;
-    padding: 10px;
     gap: 10px;
+}
+.icon-footer {
+    width: 20px;
+    height: 20px;
 }
 .social-icon {
     background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 10px;
-    width: 20px;
-    height: 20px;
-    gap: 10px;
+    padding: 10px;
+    border-radius: 50px;
 }
-.footer-social-icon :hover {
+.social-icon:hover {
     background-color: var(--hover-color);
     fill: var(--white-color);
-    border-radius: 10px;
+    border-radius: 50px;
     
 }
