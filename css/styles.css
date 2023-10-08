@@ -306,11 +306,12 @@ li {
     gap: 10px;
 }
 .our-team-icons {
-    fill: #AFB1B8;
+    display: flex;
     width: 20px;
     height: 20px;
 }
 .team-social-icon {
+    fill: #AFB1B8;
     padding: 10px;
     border-radius: 50px;
 }
@@ -583,6 +584,7 @@ li {
     gap: 10px;
 }
 .icon-footer {
+    display: flex;
     width: 20px;
     height: 20px;
 }
